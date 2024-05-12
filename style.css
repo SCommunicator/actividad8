@@ -1,0 +1,137 @@
+.carousel-item img {
+    max-width: 100%;
+    height: auto; /* Añadido para asegurar que las imágenes mantengan su relación de aspecto */
+}
+
+.carousel-item {
+    transition: opacity 1s ease-in-out; /* Agregado para que las imágenes del carrusel se desplacen automáticamente */
+}
+
+.navbar-brand img {
+    width: 6rem;
+    height: auto;
+}
+
+.dia {
+    font-weight: bold;
+    color: #dc143c; 
+    font-size: 20px;
+}
+
+.horario {
+    font-style: italic;
+    font-size: 10px;
+}
+
+.titulo {
+    font-style: oblique;
+    color: blue;
+}
+
+.fal {
+    font-size: 75px;
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+.logo {
+    text-align: left; 
+    margin-bottom: 5px; 
+}
+
+.logo img {
+    width: 100px;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.imagen {
+    text-align: left; 
+}
+
+.imagen img {
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+.navegacion nav ul li {
+    margin: 0 10px; 
+}
+
+.fal {
+    font-size: 75px;
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+.titulo {
+    font-style: oblique;
+    color: blue;
+}
+
+.pie {
+    background-color: #333; 
+    height: 150px; 
+    width: 100%; 
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+    line-height: 150px;
+}
+
+body {
+    background-image: url(fondo.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%;
+}
+
+.pie {
+    background-color: #333;
+    color: white; 
+    text-align: center; 
+    padding: 20px 0; 
+    font-size: 16px; 
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.redes-sociales a {
+    color: white; 
+    text-decoration: none; 
+    margin-right: 10px; 
+}
+
+.contacto p {
+    margin: 0; 
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav ul li {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+.footer-nav ul li a {
+    color: white; 
+    text-decoration: none; 
+}
